@@ -199,7 +199,7 @@ elif(os.path.splitext(args.fileout) != ".pdf"):
 
 # Construct and execute command
 command = Command(pdf_file, args.fileout, single_page, page_range, args.even, args.odd, args.all)
-command.debug_dump()
+#command.debug_dump()
 command.execute()
 
 # Close input file
